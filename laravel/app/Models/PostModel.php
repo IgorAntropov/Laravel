@@ -8,8 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class PostModel extends Model
 {
-    public $timestamps = false;
-
     use HasFactory;
     use Sluggable;
 
@@ -17,7 +15,7 @@ class PostModel extends Model
     {
         return [
             'slug' => [
-                'source' => 'subject'
+                'source' => 'id'
             ]
         ];
     }

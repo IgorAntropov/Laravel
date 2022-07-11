@@ -115,6 +115,11 @@
       <path value="$PROJECT_DIR$/laravel/vendor/sebastian/exporter" />
       <path value="$PROJECT_DIR$/laravel/vendor/cviebrock/eloquent-sluggable" />
       <path value="$PROJECT_DIR$/laravel/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/laravel/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/laravel/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/laravel/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/laravel/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/laravel/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

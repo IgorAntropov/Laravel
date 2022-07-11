@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MainController@home');
-
-Route::get('/news', 'MainController@news')->name('news');
-Route::post('/news/add', 'MainController@news_add');
-Route::get('/news/open/{slug}{id}', 'MainController@news_id')->name('news.open');
+Route::get('/posts', 'MainController@posts')->name('posts');
+Route::post('/posts/add', 'MainController@post_add');
+Route::get('/posts/open/{slug}{id}', 'MainController@post_open')->name('post.open');
